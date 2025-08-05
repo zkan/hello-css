@@ -1,4 +1,12 @@
 /*---- Common ----*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 600;
+}
 
 /*---- Menu ----*/
 
@@ -9,10 +17,20 @@
   background-position: center center;
 }
 
+.hero-title {
+  font-size: 64px;
+  font-weight: 600;
+}
+
 /*---- Collection Section ----*/
 .collection-item {
   background-size: cover;
   background-position: 50% 82%;
+}
+
+.collection-item-title{
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .collection-item-one {
@@ -44,5 +62,9 @@
 }
 
 /*---- Product Section ----*/
+.product-item-title {
+  font-size: 18px;
+  font-weight: 600;
+}
 
 /*---- About Section ----*/
