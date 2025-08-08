@@ -3,9 +3,20 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.section {
+  margin-bottom: 64px;
+}
+
 .section-title {
   font-size: 32px;
   font-weight: 600;
+  margin-bottom: 24px;
 }
 
 /*---- Menu ----*/
@@ -15,11 +26,13 @@ body {
   background-image: url('../images/hero-background.jpg'); /* Photo by Nicholas Kampouris on Unsplash */
   background-size: cover;
   background-position: center center;
+  height: 720px;
 }
 
 .hero-title {
   font-size: 64px;
   font-weight: 600;
+  padding-top: 128px;
 }
 
 /*---- Collection Section ----*/
