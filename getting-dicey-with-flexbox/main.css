@@ -99,3 +99,43 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.fifth-face {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fifth-face-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fifth-face-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fifth-face-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sixth-face {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sixth-face-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sixth-face-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
