@@ -32,4 +32,51 @@ body {
   grid-gap: 10px;
 
   /* Define grid-template-rows & grid-template-columnes here */
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.a {
+  grid-row-start: 1;
+  grid-column-end: span 4;
+  background-color: white;
+}
+
+.b {
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  background-color: red;
+}
+
+.c {
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start: 4;
+  grid-column-end: span 1;
+}
+
+.d {
+  grid-row-start: 4;
+  grid-row-end: span 1;
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  background-color: yellow;
+}
+
+.e {
+  grid-row-start: 4;
+  grid-row-end: span 1;
+  grid-column-start: 3;
+  grid-column-end: span 1;
+  background-color: white;
+}
+
+.f {
+  grid-row-start: 3;
+  grid-row-end: span 2;
+  grid-column-start: 4;
+  grid-column-end: span 1;
+  background-color: blue;
 }
