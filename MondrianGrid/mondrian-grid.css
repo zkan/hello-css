@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: black;
+  border: 10px solid black;
+  width: 500px;
+  height: 500px;
+}
+
+.item {
+  font-size: 21px;
+  font-weight: 600;
+  color: grey;
+  padding: 4px;
+}
+
+/* --------------------------------------------------------------------------------
+ # Start writing your code here 
+ -------------------------------------------------------------------------------- */
+
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+
+  /* Define grid-template-rows & grid-template-columnes here */
+}
