@@ -59,3 +59,26 @@ body {
   display: flex;
   align-items: flex-end;
 } */
+
+.third-face {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-face-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.third-face-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.third-face-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
