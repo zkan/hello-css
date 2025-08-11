@@ -105,6 +105,7 @@ body {
 .product-item {
   width: calc(100% / 3);
   margin-bottom: 16px;
+  padding: 0px 16px;
 }
 
 .product-item-image {
@@ -115,6 +116,11 @@ body {
 
 .price {
   margin-top: 24px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*---- About Section ----*/
