@@ -61,15 +61,27 @@ body {
   border-radius: 8px;
 }
 
-.collection-item-title{
+.collection-item-title {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 12px;
 }
 
+.collection-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 16px;
+  column-gap: 16px;
+}
+
 .collection-item-one {
   background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.1)),
     url('../images/classic-collection.jpg'); /* Photo by NordWood Themes on Unsplash */
+  grid-row-start: 1;
+  grid-row-end: span 2;
+  grid-column-start: 1;
+  grid-column-end: span 2;
 }
 
 .collection-item-two {
@@ -79,6 +91,10 @@ body {
       rgba(255, 255, 255, 0.2)
     ),
     url('../images/sport-collection.jpg'); /* Photo by Tom Radetzki on Unsplash */
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-column-start: 3;
+  grid-column-end: span 1;
 }
 
 .collection-item-three {
@@ -88,11 +104,19 @@ body {
       rgba(255, 255, 255, 0.3)
     ),
     url('../images/sandal-collection.jpg'); /* Photo by Andy Garza on Unsplash */
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-column-start: 4;
+  grid-column-end: span 1;
 }
 
 .collection-item-four {
   background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.2)),
     url('../images/casual-collection.jpg'); /* Photo by Trendest Studio on Unsplash */
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start: 3;
+  grid-column-end: span 2;
 }
 
 /*---- Product Section ----*/
