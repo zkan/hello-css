@@ -121,6 +121,8 @@ body {
 .product-list {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -16px;
+  margin-right: -16px;
 }
 
 /*---- About Section ----*/
