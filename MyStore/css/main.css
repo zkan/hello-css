@@ -44,7 +44,17 @@ body {
   display: flex;
 }
 
+/*
+.nav-item:first-child {
+  margin-left: 0px;
+}
+
 .nav-item {
+  margin-left: 24px;
+}
+*/
+
+.nav-item:not(:first-child) {
   margin-left: 24px;
 }
 
