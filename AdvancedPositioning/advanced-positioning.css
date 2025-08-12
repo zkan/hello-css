@@ -53,15 +53,18 @@
 }
 
 #box-2 {
+  top: 24px;
 }
 
 #box-3 {
+  top: 48px;
 }
 
 /* --------------------
   ## Exercise #2
   -------------------- */
 #box-group2 {
+  position: relative;
 }
 
 #box-4 {
@@ -71,6 +74,8 @@
 }
 
 #box-6 {
+  position: absolute;
+  right: 0px;
 }
 
 /* --------------------
@@ -80,10 +85,19 @@
 }
 
 #box-7 {
+  position: fixed;
 }
 
 #box-8 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
 }
 
 #box-9 {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: auto;
 }
