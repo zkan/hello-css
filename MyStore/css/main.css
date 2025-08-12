@@ -20,6 +20,15 @@ body {
 }
 
 /*---- Menu ----*/
+.menu-bar-wrapper {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1000;
+}
+
 .menu-bar {
   display: flex;
   height: 72px;
