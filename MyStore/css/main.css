@@ -189,3 +189,14 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+      
+/*---- Social Section ----*/
+.social-list {
+  position: fixed;
+  right: 72px;
+  bottom: 60px;
+}
+
+.social-logo {
+  width: 60px;
+}
