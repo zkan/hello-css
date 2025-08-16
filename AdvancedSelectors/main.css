@@ -41,3 +41,30 @@ h2 {
 }
 
 /*--- Start writing code below ---*/
+
+.about-section h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+.about-section .image {
+  margin-right: 24px;
+}
+
+.about-section > .about-paragraph {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.list-item > .image {
+  height: 300px;
+}
+
+.list-item > h5 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 16px 0;
+}
