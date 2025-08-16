@@ -58,6 +58,20 @@ body {
   margin-left: 24px;
 }
 
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #f87060;
+}
+
+.nav-link:active {
+  opacity: 0.5;
+}
+
 /*---- Hero Section ----*/
 .hero-section {
   background-image: url('../images/hero-background.jpg'); /* Photo by Nicholas Kampouris on Unsplash */
