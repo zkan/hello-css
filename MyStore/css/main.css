@@ -36,7 +36,7 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .menu-bar {
     height: 96px;
     flex-direction: column;
@@ -235,6 +235,22 @@ body {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-image {
+    width: 100%;
+    margin-bottom: 24px;
+    margin-right: 0px;
+  }
+
+  .about-description {
+    margin-bottom: 24px;
+  }
+}
+
 /*---- Social Section ----*/
 .social-list {
   position: fixed;
@@ -244,6 +260,12 @@ body {
 
 .social-logo {
   width: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .social-list {
+    display: none;
+  }
 }
 
 /*---- Effects ----*/
