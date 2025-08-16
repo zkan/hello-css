@@ -119,6 +119,26 @@ body {
     "first first fourth fourth";
 }
 
+@media screen and (max-width: 768px) {
+  .collection-list {
+    grid-template-areas:
+      "first first second second"
+      "third third fourth fourth";
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .collection-list {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "first"
+      "second"
+      "third"
+      "fourth";
+  }
+}
+
 .collection-item-one {
   background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.1)),
     url('../images/classic-collection.jpg'); /* Photo by NordWood Themes on Unsplash */
